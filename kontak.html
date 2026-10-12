@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontak | Taufiq Rizky</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark site-nav sticky-top"><div class="container">
+  <a class="navbar-brand fw-bold" href="index.html"><span class="brand">T</span> Taufiq Rizky</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Buka navigasi"><span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse" id="navMenu"><ul class="navbar-nav ms-auto align-items-lg-center">
+    <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+    <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang</a></li>
+    <li class="nav-item"><a class="nav-link" href="keahlian.html">Keahlian</a></li>
+    <li class="nav-item"><a class="nav-link" href="proyek.html">Proyek</a></li>
+    <li class="nav-item"><a class="nav-link active" href="kontak.html">Kontak</a></li>
+    <li class="nav-item ms-lg-3"><a class="btn btn-purple btn-sm px-3" href="login.html">Login</a></li>
+  </ul></div>
+</div></nav>
+<main>
+  <section class="page-heading"><div class="container">
+    <p class="eyebrow">HUBUNGI SAYA</p><h1>Mari <span class="gradient">terhubung.</span></h1>
+    <p>Punya pertanyaan, ide, atau ingin berdiskusi? Silakan gunakan formulir berikut.</p>
+  </div></section>
+  <section class="section"><div class="container"><div class="row g-5">
+    <div class="col-lg-5"><h2 class="section-title">Sampaikan pesanmu.</h2><p class="muted">Kamu juga bisa menghubungi saya melalui media sosial. Ganti informasi contoh ini dengan kontak yang benar sebelum website dipublikasikan.</p>
+      <div class="contact-item"><i class="bi bi-envelope"></i><div><strong>Email</strong><p>emailanda@example.com</p></div></div>
+      <div class="contact-item"><i class="bi bi-whatsapp"></i><div><strong>WhatsApp</strong><p>+62 812-3456-7890</p></div></div>
+      <div class="contact-item"><i class="bi bi-instagram"></i><div><strong>Instagram</strong><p>@akunanda</p></div></div>
+    </div>
+    <div class="col-lg-7"><form id="contactForm" class="form-card" novalidate>
+      <h3>Kirim pesan</h3><p class="muted small">Semua kolom wajib diisi.</p>
+      <div class="mb-3"><label class="form-label" for="contactName">Nama lengkap</label><input class="form-control" id="contactName" name="name" required minlength="2" placeholder="Nama kamu"><div class="invalid-feedback">Nama minimal 2 karakter.</div></div>
+      <div class="mb-3"><label class="form-label" for="contactEmail">Email</label><input class="form-control" id="contactEmail" name="email" type="email" required placeholder="nama@email.com"><div class="invalid-feedback">Masukkan email yang valid.</div></div>
+      <div class="mb-3"><label class="form-label" for="contactMessage">Pesan</label><textarea class="form-control" id="contactMessage" name="message" rows="4" required minlength="5" placeholder="Tulis pesan di sini"></textarea><div class="invalid-feedback">Pesan minimal 5 karakter.</div></div>
+      <button type="submit" class="btn btn-purple w-100">Periksa Form <i class="bi bi-arrow-right ms-2"></i></button>
+      <div id="contactFeedback" class="form-feedback mt-3" role="status" aria-live="polite"></div>
+      <p class="muted small mt-3 mb-0">Form ini hanya demonstrasi. Pesan tidak dikirim ke email atau server.</p>
+    </form></div>
+  </div></div></section>
+</main>
+<footer class="footer"><div class="container text-center"><a class="navbar-brand fw-bold text-white" href="index.html"><span class="brand">T</span> Taufik Rizky</a><p>Belajar, berkarya, dan terus berkembang.</p><div class="socials"><a href="https://wa.me/6281240125755"><i class="bi bi-whatsapp"></i></a><a href="https://www.instagram.com/taufiq_rizkyyy?psln=MTl2dWFyeTM4ZGJiNQ=="><i class="bi bi-instagram"></i></a><a href="mailto:taufikriski020@gmail.com"><i class="bi bi-envelope"></i></a></div><small>© <span data-year></span> Taufiq Rizky. Portofolio pribadi.</small></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script><script src="script.js"></script>
+</body></html>
